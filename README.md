@@ -123,7 +123,7 @@ For development, you may use **VS Code Live Server** or any simple local server.
 
 ```text
 GitHub Repository:
-https://github.com/YOUR_USERNAME/COS106-Student-Portfolio
+https://github.com/alhemdrew/COS106-Student-Portfolio
 ```
 
 ---
