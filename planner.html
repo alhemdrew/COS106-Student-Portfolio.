@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container topbar">
+            <a class="brand" href="index.html">Andrew <span>Moses</span></a>
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="planner.html" class="active">Planner</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top: 2rem;">
+        <section class="card planner-panel">
+            <h1>Academic Planner</h1>
+            <p>Use this planner to organise the tasks that matter most for your study routine.</p>
+
+            <div class="task-input">
+                <input id="taskInput" type="text" placeholder="Add a new academic task">
+                <button id="addTask" class="btn btn-primary">Add Task</button>
+            </div>
+
+            <div class="metrics">
+                <div class="metric">Today: <strong id="dateText"></strong></div>
+                <div class="metric">Total Tasks: <strong id="totalTasks">0</strong></div>
+                <div class="metric">Completed: <strong id="completedTasks">0</strong></div>
+                <div class="metric">Remaining: <strong id="remainingTasks">0</strong></div>
+            </div>
+
+            <div class="progress-wrap">
+                <label for="progressFill">Progress</label>
+                <div class="progress-bar" aria-label="Task progress">
+                    <span id="progressFill" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></span>
+                </div>
+            </div>
+
+            <div id="taskList"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Andrew Moses | COS106 Student Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="js/planner.js"></script>
+</body>
+</html>

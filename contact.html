@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Andrew Moses</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container topbar">
+            <a class="brand" href="index.html">Andrew <span>Moses</span></a>
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="planner.html">Planner</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top: 2rem;">
+        <section class="grid-2">
+            <article class="card">
+                <h1>Contact Me</h1>
+                <p>If you want to talk about coursework, projects or technology in general, feel free to reach out. I am always happy to learn from other students and professionals.</p>
+                <ul>
+                    <li>Email: andrew.moses@student.com</li>
+                    <li>Phone: 0771234567</li>
+                </ul>
+            </article>
+            <article class="card contact-card">
+                <form id="contactForm" class="form-grid">
+                    <div>
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email">
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" name="phone" type="text">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Send Message</button>
+                    <div id="formMessage" class="form-message" role="status" aria-live="polite"></div>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Andrew Moses | COS106 Student Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>
