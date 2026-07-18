@@ -26,7 +26,7 @@ The project demonstrates the use of **HTML5**, **CSS3**, and **Vanilla JavaScrip
 |------|---------|
 | **Student Name** | Andrew Moses |
 | **Institution** | MIVA Open University |
-| **Programme** | Crime Management |
+| **Programme** | Cybersecurity |
 | **Course** | COS106 – Introduction to Web Technologies |
 
 ---
